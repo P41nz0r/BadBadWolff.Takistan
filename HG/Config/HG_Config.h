@@ -3,7 +3,7 @@
     Author - HoverGuy
     © All Fucks Reserved
     Website - http://www.sunrise-production.com
-	
+
 	currencyType - STRING - Currency you want to use (ISO format)
 	enableSave - BOOL - Save money?
 	resetSavedMoney - BOOL - Reset saved money? Useful if you enable persistence then disable it and re-enable it, if it's set to true old saved money will be reset to startCash value, only used if enableSave is set to true
@@ -25,7 +25,7 @@
 	admins - ARRAY OF STRINGS - Admins PUIDs
 	adminKey - INTEGER - Key to push to open admin menu, default is Left Windows (0xDB / 219), see https://community.bistudio.com/wiki/DIK_KeyCodes OR https://forums.bistudio.com/forums/topic/111590-keyboard-ui-number-codes/?do=findComment&comment=1848755
 	savingMethod - STRING - Can be either "serverProfile" or "extDB" if the latest make sure you have extDB loaded & setup correctly *NOT IMPLEMENTED*
-	
+
 	class HG_MasterCfg
 	{
 		class Rank - Can be PRIVATE/CORPORAL/SERGEANT/LIEUTENANT/CAPTAIN/MAJOR/COLONEL
@@ -49,7 +49,7 @@ enableHUD = true;
 enablePaycheck = true;
 enableKillReward = true;
 enableTeamKillPenalty = true;
-enableCrate = false;
+enableCrate = true;
 enableGiveMoney = true;
 clearInventory = true;
 storeVehiclesOnDisconnect = true;
@@ -59,7 +59,7 @@ enableVehicleInventorySave = true;
 enableXP = true;
 enableKillCount = true;
 enableTags = true;
-enableMarkers = false;
+enableMarkers = true;
 admins[] = {};
 adminKey = 0xDB;
 savingMethod = "serverProfile";
@@ -164,3 +164,12 @@ class HG_WeaponsShopCfg // Has to be left untouched
 {
     #include "HG_WeaponsShopCfg.h"
 };
+class cRL_NatoShop_cfg
+{
+	#include "cRL_NatoShop_cfg.h"
+};
+
+class cRL_RussianFedShop_cfg
+{
+	#include "cRL_RussianFedShop_cfg.h"
+}

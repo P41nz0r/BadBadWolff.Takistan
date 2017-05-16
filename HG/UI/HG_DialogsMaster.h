@@ -11,3 +11,5 @@
 #include "Dialogs\HG_GiveMoney.h"
 #include "Dialogs\HG_VehiclesShop.h"
 #include "Dialogs\HG_WeaponsShop.h"
+#include "Dialogs\cRL_NatoShop.h"
+#include "Dialogs\cRL_RussianFedShop.h"
