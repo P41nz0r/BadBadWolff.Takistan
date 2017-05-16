@@ -1,0 +1,31 @@
+class aissp_configs
+{
+	#include "LV\config_aissp.hpp"
+};
+
+/*
+    Classes HG SHOP
+*/
+
+#include "HG\UI\HG_DialogsMaster.h"
+
+class RscTitles
+{
+    #include "HG\UI\Dialogs\HG_HUD.h"
+	#include "HG\UI\Dialogs\HG_Tags.h"
+};
+
+class CfgClient
+{
+    #include "HG\Config\HG_Config.h"
+};
+
+class CfgSounds
+{
+    #include "HG\Sounds\HG_Sounds.h"
+};
+
+class CfgFunctions 
+{
+	#include "HG\Functions\HG_Functions.h"
+};
