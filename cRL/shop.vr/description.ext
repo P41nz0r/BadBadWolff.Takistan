@@ -1,10 +1,14 @@
-class aissp_configs
-{
-	#include "LV\config_aissp.hpp"
-};
+__EXEC(HG_Profile = allVariables profileNamespace)
 
 /*
-    Classes HG SHOP
+    Header
+*/
+author = "HoverGuy";
+onLoadName = "Simple Shops";
+onLoadMission = "v 2.1";
+
+/*
+    Classes
 */
 
 #include "HG\UI\HG_DialogsMaster.h"
