@@ -1,6 +1,8 @@
 if (isServer) then {
 //nul = [] execVM "sideende.sqf";
 
+[[PMCchef, ["Headhunter Mission","'Pain\TASK\exsHVT.sqf' call BIS_fnc_execVM"]],"addAction",true,true] call BIS_fnc_MP;
+
 
 //END TASK
 ["KillEnemy_HVT", "SUCCEEDED"] call ENGTASKS_SetTaskState;

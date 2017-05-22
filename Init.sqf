@@ -1,5 +1,6 @@
 enableSaving [false, false];
 //DACinit
+//This is a TEST
 DAC_Basic_Value = 0;execVM "DAC\DAC_Config_Creator.sqf";
 
 //CHHQ Init
